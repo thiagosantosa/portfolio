@@ -15,7 +15,7 @@ function Home() {
       <Container>
         <Row>
           <Col md={7}>
-            <h2 className='headtext'>Hello <span className='wave'>👋 </span></h2>
+            <h2 className='headtext'>Hello! <span className='wave'>👋 </span></h2>
             <h2 className='nametext'>I'm Thiago Miranda</h2>
             <span></span>
             <Text />
