@@ -1,36 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Header from '../components/Header/Header'
-import Homepage from '../components/Homepage/Homepage'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import LogoInstagram from '../Assets/instagram.png';
-import LogoTwitter from '../Assets/twitter.png';
-import LogoLinkedin from '../Assets/linkedin.png';
+import LogoInstagram from '../Assets/icones/instagram.png';
+import LogoTwitter from '../Assets/icones/twitter.png';
+import LogoLinkedin from '../Assets/icones/linkedin.png';
 import ImageThiago from '../Assets/thiago.png';
 
 import WorkLoreal from '../Assets/bg-loreal.jpg';
-import WorkLorealLogo from '../Assets/loreal.png';
+import WorkLorealLogo from '../Assets/logos/loreal.png';
 
 import WorkHyundai from '../Assets/bgHyundai.jpg';
-import WorkHyundaiLogo from '../Assets/logo-hyundai.png';
+import WorkHyundaiLogo from '../Assets/logos/logo-hyundai.png';
 
 import WorkCacauShow from '../Assets/bg-cacaushow.jpg';
-import WorkCacauShowLogo from '../Assets/logo-cacaushow.png';
+import WorkCacauShowLogo from '../Assets/logos/logo-cacaushow.png';
 
 import WorkCartaoMais from '../Assets/bg-cartaomais.jpg';
-import WorkCartaoMaisLogo from '../Assets/logo-cartaomais.png';
+import WorkCartaoMaisLogo from '../Assets/logos/logo-cartaomais.png';
 
 import WorkGrupoMateus from '../Assets/bg-grupomateus.jpg';
-import WorkGrupoMateusLogo from '../Assets/logo-grupomateus.png';
+import WorkGrupoMateusLogo from '../Assets/logos/logo-grupomateus.png';
 
 import WorkPropay from '../Assets/bg-propay.jpg';
-import WorkPropayLogo from '../Assets/logo-propay.png';
+import WorkPropayLogo from '../Assets/logos/logo-propay.png';
 
-import LogoEspm from '../Assets/espm.png';
-import LogoAnhembi from '../Assets/logo-anhembi.png';
+import LogoEspm from '../Assets/logos/espm.png';
+import LogoAnhembi from '../Assets/logos/logo-anhembi.png';
 
-import LogoPanamericana from '../Assets/logo-panamericana.png';
-import LogoOswaldoCruz from '../Assets/logo-oswaldocruz.png';
+import LogoPanamericana from '../Assets/logos/logo-panamericana.png';
+import LogoOswaldoCruz from '../Assets/logos/logo-oswaldocruz.png';
+
+import LogoInteractiveDesign from '../Assets/logos/interactive-design.png';
 
 import CHyundai from '../Assets/logos/hyundai.png';
 import CLoreal from '../Assets/logos/loreal.png';
@@ -46,24 +47,22 @@ import CPropay from '../Assets/logos/propay.png';
 function Home() {
   return (
     <>
-    {/* <div>
-      <Header />
-      <Homepage />
-    </div> */}
-
         <header className='container__header'>
-            <h1 className='container__header__logo'><Link to="/" title='TM UI/ UX Designer & Front End Development'>TM <span>UI/ UX Designer &<br /> Front End Development</span></Link></h1>
+            <section className='container__header__content'>
+              <h1 className='container__header__content__logo'><Link to="/" title='TM UI/ UX Designer & Front End Development'>TM <span>UI/ UX Designer &<br /> Front End Development</span></Link></h1>
 
-            <nav className='container__header__menu'>
-                  <Link to="/" title='Home'>Home</Link>
-                  <Link to="/" title='About'>About</Link>
-                  <Link to="/" title='Work'>Work</Link>
-                  <Link to="/" title='Academic education'>Academic education</Link>
-                  <Link to="/" title='Contact'>Contact</Link>
-            </nav>
+              <nav className='container__header__content__menu'>
+                    <AnchorLink href='#Home'>Home</AnchorLink>
+                    <AnchorLink href='#About'>About</AnchorLink>
+                    <AnchorLink href='#Services'>Services</AnchorLink>
+                    <AnchorLink href='#Work'>Work</AnchorLink>
+                    <AnchorLink href='#Education'>Academic education</AnchorLink>
+                    <AnchorLink href='#Contact'>Contact</AnchorLink>
+              </nav>
+            </section>
         </header>
 
-
+        <section id='Home'></section>
         <section className='container__welcome'>
             <h2>
               <span>Hello people!</span>
@@ -79,7 +78,7 @@ function Home() {
             </nav>
         </section>
 
-
+        <section id='About'></section>
         <section className='container__about'>
           <div>
              <h2 className='container__about__title'>About me</h2>
@@ -93,12 +92,12 @@ function Home() {
           <img src={ImageThiago} alt='Thiago Miranda | UX Designer and Front End' />
         </section>
 
-
+        <section id='Work'></section>
         <section className='container__works'>
             <h2 className='container__works__title'>Featured Work</h2>
 
             <section className='container__works__item'>
-              <Link to="/" title='L Oréal Paris Brasil'>
+              <Link to="/loreal" title='L Oréal Paris Brasil'>
                   <img src={WorkLoreal} className='container__works__item_image' />
                   <h3 className='container__works__item__title'>L'Oréal Paris Brasil</h3>
                   <img src={WorkLorealLogo} className='container__works__item__logo' alt='Dermaclub' />
@@ -106,7 +105,7 @@ function Home() {
             </section>
 
             <section className='container__works__item'>
-              <Link to="/" title='Hyundai'>
+              <Link to="/hyundai" title='Hyundai'>
                   <img src={WorkHyundai} className='container__works__item_image' />
                   <h3 className='container__works__item__title'>Hyundai</h3>
                   <img src={WorkHyundaiLogo} className='container__works__item__logo' alt='Hyundai' />
@@ -114,7 +113,7 @@ function Home() {
             </section>
 
             <section className='container__works__item'>
-              <Link to="/" title='Cacau Show'>
+              <Link to="/cacau-show" title='Cacau Show'>
                   <img src={WorkCacauShow} className='container__works__item_image' />
                   <h3 className='container__works__item__title'>Cacau Show</h3>
                   <img src={WorkCacauShowLogo} className='container__works__item__logo' alt='Cacau Show' />
@@ -122,7 +121,7 @@ function Home() {
             </section>
 
             <section className='container__works__item'>
-              <Link to="/" title='Cartão Mais'>
+              <Link to="/cartao-mais" title='Cartão Mais'>
                   <img src={WorkCartaoMais} className='container__works__item_image' />
                   <h3 className='container__works__item__title'>Cartão Mais</h3>
                   <img src={WorkCartaoMaisLogo} className='container__works__item__logo' alt='Mais' />
@@ -130,7 +129,7 @@ function Home() {
             </section>
 
             <section className='container__works__item'>
-              <Link to="/" title='Grupo Mateus'>
+              <Link to="/grupo-mateus" title='Grupo Mateus'>
                   <img src={WorkGrupoMateus} className='container__works__item_image' />
                   <h3 className='container__works__item__title'>Grupo Mateus</h3>
                   <img src={WorkGrupoMateusLogo} className='container__works__item__logo' alt='Grupo Mateus' />
@@ -138,7 +137,7 @@ function Home() {
             </section>
 
             <section className='container__works__item'>
-              <Link to="/" title='Propay'>
+              <Link to="/propay" title='Propay'>
                   <img src={WorkPropay} className='container__works__item_image' />
                   <h3 className='container__works__item__title'>Propay</h3>
                   <img src={WorkPropayLogo} className='container__works__item__logo' alt='Propay' />
@@ -146,7 +145,7 @@ function Home() {
             </section>
         </section>
 
-
+        <section id='Services'></section>
         <section className='container__services'>
           <h2 className='container__services__title'>My Services</h2>
 
@@ -157,18 +156,20 @@ function Home() {
           </ul>
         </section>
 
+        <section id='Education'></section>
         <section className='container__education'>
           <h2 className='container__education__title'>Academic education</h2>
 
           <ul className='container__education__item'>
+            <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Mobile User Experience (UX) Design <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2023-2023</h3> <img src={LogoEspm} className='container__education__item_logo' /> Agile Methodologies for innovation</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Project Management with PMI and PMBOK</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Agile and Collaborative Leadership in Market 4.0</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Design UX and UI</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Information Architecture in UX</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> UX Writing - User Flows and Scenarios for Digital Products</li>
-            <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Information Technology Management</li>
-            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Internet Systems</li>
+            <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Information Technology Management <span className='container__education__item_now'>Studying</span></li>
+            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Internet Systems <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2022-2022</h3> <img src={LogoPanamericana} className='container__education__item_logo' /> Design Leaders Mindset, Game Design and Digital Media</li>
             <li><h3>2004-2006</h3> <img src={LogoOswaldoCruz} className='container__education__item_logo' /> Higher Technology Course (CST), Virtual Systems - Webdesign </li> 
           </ul>
@@ -194,6 +195,7 @@ function Home() {
         </section>
 
 
+        <section id='Contact'></section>
         <section className='container__talk'>
           <h2 className='container__talk_title'><span>Want to start a project?</span>Let’s Talk</h2>
           <button className='container__talk_bto' onClick={() => { window.open("https://wa.me/+5511991079785");}}>Contact us</button>

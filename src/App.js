@@ -3,11 +3,14 @@ import { useEffect, useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Preloader from '../src/components/Pre'
 import Home from './pages/Home.js'
-import About from './pages/About'
+import Loreal from './pages/Loreal'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Project from './pages/Project';
-import Contact from './pages/Contact';
+import Hyundai from './pages/Hyundai';
+import CacauShow from './pages/CacauShow';
+import CartaoMais from './pages/CartaoMais';
+import GrupoMateus from './pages/GrupoMateus';
+import Propay from './pages/Propay';
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -59,9 +62,12 @@ function App() {
         <div className="App container__master" id={load ? "no-scroll" : "scroll"}>
           <Routes>
             <Route path='/' element={<Home />}></Route>
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/project' element={<Project />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
+            <Route path='/loreal' element={<Loreal />}></Route>
+            <Route path='/hyundai' element={<Hyundai />}></Route>
+            <Route path='/cacau-show' element={<CacauShow />}></Route>
+            <Route path='/cartao-mais' element={<CartaoMais />}></Route>
+            <Route path='/grupo-mateus' element={<GrupoMateus />}></Route>
+            <Route path='/propay' element={<Propay />}></Route>
           </Routes>
         </div>
       </Router>
