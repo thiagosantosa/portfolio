@@ -66,8 +66,8 @@ function Home() {
         <section className='container__welcome'>
             <h2>
               <span>Hello people!</span>
-              My creative<br />
-              digital design<br />
+              My creative <br />
+              digital design <br />
               and Front End
             </h2>
 
