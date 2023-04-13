@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
 body {
-  font-family: "Raleway", serif !important;
+  font-family: 'Inter', sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,6 +13,419 @@ html {
   padding: 0;
   cursor: none;
 }
+
+.container__master{
+  width: 1440px;
+  display: block;
+  margin: 0 auto 0;
+}
+
+/* Header */
+.container__header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container__header__logo a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container__header__logo a span{
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #939395;
+}
+
+.container__header__logo a:hover{
+  color: #000;
+}
+
+.container__header__menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container__header__menu a{
+  font-size: 17px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.container__header__menu a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.container__header__menu a + *{
+  margin-left: 40px;
+}
+/* Fim Header */
+
+
+/* Welcome */
+.container__welcome{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 185px 0 0 98px;
+}
+
+.container__welcome h2{
+  font-size: 124px;
+  font-weight: 700;
+  color: #000;
+}
+
+.container__welcome h2 span{
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #939395;
+
+}
+
+.container__welcome__social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+}
+
+.container__welcome__social a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #E8E7EA;
+  border-radius: 100%;
+  text-indent: -9999px;
+}
+
+.container__welcome__social a + *{
+  margin-left: 20px;
+}
+/* Fim Welcome */
+
+
+/* About */
+.container__about{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 195px;
+}
+
+.container__about__title{
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+
+.container__about__description{
+   margin: 0 60px 0 0;
+   line-height: 45px;
+   font-size: 32px;
+   font-weight: 700;
+   color: #000;
+}
+/* Fim About */
+
+
+/* Feature Works */
+.container__works{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 124px auto 140px;
+}
+
+.container__works__title{
+  margin-bottom: 60px;
+  font-size: 124px;
+  font-weight: 700;
+  color: #000;
+
+}
+
+.container__works__item{
+  width: 100%;
+  height: 810px;
+  margin: 0 auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.container__works__item__title{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 20px;
+  border-bottom: solid 1px #fff;
+  font-size: 80px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.container__works__item_image{
+  width: 100%;
+  display: block;
+  margin: 0 auto 0;
+}
+
+.container__works__item__logo{
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Fim Feature Works */
+
+
+/* My Services & Education */
+.container__services, .container__education{
+  width: 100%;
+  margin: 0 auto 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container__services__title, .container__education__title{
+  font-size: 124px;
+  font-weight: 700;
+  color: #000;
+}
+
+.container__services__item, .container__education__item{
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 60px auto 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container__services__item li, .container__education__item li{
+  padding: 20px 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: #939395;
+  border-bottom: solid 1px #E8E7EA;
+}
+
+
+.container__services__item li h3, .container__education__item li h3{
+  width: 235px;
+  margin: 0 60px 0 60px;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+}
+
+.container__education__item_logo{
+  margin-right: 20px;
+}
+/* Fim My Services & Education */
+
+
+/* Companies */
+.container__companies{
+  width: 100%;
+  margin: 0 auto 0;
+}
+
+.container__companies_title{
+  width: 100%;
+  margin: 0 auto 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+
+.container__companies_item{
+  width: 100%;
+  list-style: none;
+  padding: 0 0 0 0;
+  margin: 80px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container__companies_item li{
+  flex-basis: 20%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Fim Companies */
+
+
+/* Contact */
+.container__talk{
+  width: 100%;
+  display: block;
+  margin: 90px auto 0;
+}
+
+.container__talk_title{
+  width: 100%;
+  text-align: center;
+  font-size: 124px;
+  font-weight: 700;
+  color: #000;
+}
+
+.container__talk_title span{
+  display: block;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #939395;
+}
+
+.container__talk_bto{
+  display: block;
+  margin: 50px auto 100px;
+  width: 184px;
+  height: 58px;
+  border: 2px solid #9747FF;
+  border-radius: 29.5px;
+  background: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #9747FF;
+  transition: 0.5s;
+}
+
+.container__talk_bto:hover{
+  background-color: #9747FF;
+  color: #fff;
+  transition: 0.5s;
+}
+/* Fim Contact */
+
+
+/* Pré Footer */
+.container__prefooter{
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #E8E7EA;
+}
+
+.container__prefooter__logo a{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.container__prefooter__logo a span{
+  margin-left: 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #939395;
+}
+
+.container__prefooter__logo a:hover{
+  color: #000;
+}
+/* Fim Pré Footer */
+
+
+/* Footer */
+.container__footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0 50px;
+  margin-bottom: 50px;
+  border-bottom: solid 1px #E8E7EA;
+}
+
+.container__footer_item{
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 35px;
+  color: #939395;
+}
+
+.container__footer_item:last-of-type{
+  text-align: right;
+}
+
+.container__footer_item a{
+  display: block;
+  color: #939395;
+  text-decoration: none;
+}
+
+.container__footer_item__social{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px auto 0;
+}
+
+.container__footer_item__social a{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #E8E7EA;
+  border-radius: 100%;
+  text-indent: -9999px;
+}
+
+.container__footer_item__social a + *{
+  margin-left: 20px;
+}
+/* Fim Footer */
+
+
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -39,17 +452,17 @@ html {
 /* --------- */
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #c05ab9cb;
+  background: #ccc;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(174, 64, 224, 0.65);
+  background: rgba(0, 0, 0, 0.65);
   border-radius: 12px;
 }
 
@@ -68,6 +481,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 9999;
 }
 
 @media (max-width: 767px) {

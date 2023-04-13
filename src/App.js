@@ -56,7 +56,7 @@ function App() {
       />
       <Router>
         <Preloader load={load} />
-        <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <div className="App container__master" id={load ? "no-scroll" : "scroll"}>
           <Routes>
             <Route path='/' element={<Home />}></Route>
             <Route path='/about' element={<About />}></Route>
