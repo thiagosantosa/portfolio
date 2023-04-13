@@ -524,12 +524,6 @@ html {
   z-index: 9999;
 }
 
-/* @media (max-width: 767px) {
-  .cursor{
-    display: none;
-  }
-} */
-
 @media (max-width: 1366px) {
   .container__master{
     width: 1130px;
@@ -541,6 +535,10 @@ html {
 }
 
 @media (max-width: 768px){
+
+  .cursor{
+    display: none;
+  }
 
   .container__master{
     width: 90%;
