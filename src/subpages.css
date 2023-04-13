@@ -172,3 +172,61 @@
 
 .container__slider .slick-prev:hover, 
 .container__slider .slick-next:hover{background-color: #999;}
+
+@media (max-width: 768px){
+    .container__subpage{
+        padding: 0 10px 0 10px;
+    }
+
+    .container__subpage img{
+        max-width: 150px;
+    }
+
+    .container__subpage_bto{
+        margin: 0 20px 0 0;
+    }
+
+    .container__description{
+        padding: 20px;
+        margin-bottom: 0;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .container__seeproject{
+        padding: 0 20px 0 20px;
+        margin: 20px auto 20px;
+        flex-direction: column;
+    }
+
+    .container__seeproject a{
+        margin-top: 20px;
+    }
+
+    .container__seeproject_legend span{
+        display: none;
+    }
+
+    .container__tags{
+        width: 90%;
+        padding: 20px 0 0 0;
+        align-items: flex-start;
+        overflow-x: scroll;
+        height: 90px;
+    }
+
+    .container__tags__item + *{
+        margin-left: 10px;
+    }
+
+    .container__tags__item{
+        min-width: 120px;
+        margin-bottom: 0;
+    }
+
+    .container__slider .slick-prev, .slick-next{
+        top: 190px;
+        width: 40px;
+        height: 40px;
+    }
+}
