@@ -34,7 +34,11 @@ act as UX / UI Designer, bringing the best solution for the project. In addition
 Front End Developer in the componentization of a new design system in Angular.
     </p>
 
-    <section className='container__tags'>
+    <section className='container__tags'>      
+      <div className='container__tags__item'><i>Figma</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>UX | UI</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>Scrum</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+      <div className='container__tags__item'><i>Design System</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
       <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>Angular</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
@@ -42,10 +46,7 @@ Front End Developer in the componentization of a new design system in Angular.
       <div className='container__tags__item'><i>Angular Material</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>GitFlow</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
       <div className='container__tags__item'><i>Mobile</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
-      <div className='container__tags__item'><i>Figma</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>UX | UI</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>Scrum</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
-      <div className='container__tags__item'><i>Design System</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+
     </section>
 
     <section className='container__seeproject'>

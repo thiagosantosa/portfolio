@@ -35,17 +35,18 @@ function Loreal() {
     in the construction of the prototyping delivered in XD using the technologies below:
     </p>
 
-    <section className='container__tags'>
+    <section className='container__tags'>      
+      <div className='container__tags__item'><i>Mobile</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>Adobe XD</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+      <div className='container__tags__item'><i>UX | UI</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
+      <div className='container__tags__item'><i>Scrum</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>React</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
       <div className='container__tags__item'><i>Bootstrap</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
       <div className='container__tags__item'><i>Javascript</i> <span>5</span> <div data-label="punctuation" style={{width: '50%'}}></div></div>
       <div className='container__tags__item'><i>GitFlow</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
-      <div className='container__tags__item'><i>Mobile</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>Adobe XD</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
-      <div className='container__tags__item'><i>UX | UI</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
-      <div className='container__tags__item'><i>Scrum</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+
       <div className='container__tags__item'><i>React Native</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
     </section>
 

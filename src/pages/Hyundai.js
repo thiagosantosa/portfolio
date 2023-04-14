@@ -34,14 +34,15 @@ elements making the site 100% customized with Adobe AEM technology.
     </p>
 
     <section className='container__tags'>
+      <div className='container__tags__item'><i>Adobe XD</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>UX | UI </i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>Scrum </i> <span>3</span> <div data-label="punctuation" style={{width: '30%'}}></div></div>
       <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>Bootstrap</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
       <div className='container__tags__item'><i>Jquery</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>Responsive</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>Adobe XD</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>UX | UI </i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>Scrum </i> <span>3</span> <div data-label="punctuation" style={{width: '30%'}}></div></div>
+      
     </section>
 
     <section className='container__seeproject'>

@@ -36,12 +36,13 @@ structuring and partial part of UX in the project.
       <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>React</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
+      <div className='container__tags__item'><i>UX | UI</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
+      <div className='container__tags__item'><i>Adobe XD</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+      <div className='container__tags__item'><i>Scrum</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>  
       <div className='container__tags__item'><i>Bootstrap</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
       <div className='container__tags__item'><i>GitFlow</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
       <div className='container__tags__item'><i>Mobile</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
-      <div className='container__tags__item'><i>Adobe XD</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
-      <div className='container__tags__item'><i>Scrum</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
-      <div className='container__tags__item'><i>UX | UI</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
+          
     </section>
 
     <section className='container__seeproject'>
