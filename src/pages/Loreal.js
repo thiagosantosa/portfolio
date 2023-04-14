@@ -52,7 +52,7 @@ function Loreal() {
 
     <section className='container__seeproject'>
       <div className='container__seeproject_legend'><span></span>Level of interaction of the technology applied in the project from 0 to 10, the grade refers to how much I needed to apply the technology in question in the project.</div>
-      <a href="https://www.dermaclub.com.br/" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
+      <a href="https://sso.dermaclub.com.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Ddermafront%26redirect_uri%3Dhttps%253A%252F%252Fclube.dermaclub.com.br%252Fsignin-callback.html%26response_type%3Dcode%26scope%3Dopenid%2520profile%26state%3D85735919a1df4d9cb92bee06c1328fc6%26code_challenge%3D1_QL03wyn79lSS5LcRe4-teAbCGJJGVdnM9pZN22vIk%26code_challenge_method%3DS256%26response_mode%3Dquery" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
     </section>
 
 
