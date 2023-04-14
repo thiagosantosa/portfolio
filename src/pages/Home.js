@@ -161,6 +161,7 @@ function Home() {
           <h2 className='container__education__title'>Academic education</h2>
 
           <ul className='container__education__item'>
+            <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Design for a Better World with Don Norman <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Mobile User Experience (UX) Design <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2023-2023</h3> <img src={LogoEspm} className='container__education__item_logo' /> Agile Methodologies for innovation</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Project Management with PMI and PMBOK</li>
