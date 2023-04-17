@@ -188,7 +188,7 @@ function Home() {
             <div className='container__tags__item'><i>Agile Scrum</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
             <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
             <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-            <div className='container__tags__item'><i>Angular</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
+            <div className='container__tags__item'><i>Angular</i> <span>8</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
             <div className='container__tags__item'><i>React</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
             <div className='container__tags__item'><i>React Native</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
             <div className='container__tags__item'><i>Bootstrap</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
