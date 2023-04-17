@@ -97,6 +97,7 @@
 
 .container__tags.container__tags--home .container__tags__item{
     width: auto;
+    margin-bottom: 20px;
 }
 
 .container__tags.container__tags--home .container__tags__item + *{
