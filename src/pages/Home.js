@@ -49,7 +49,7 @@ function Home() {
     <>
         <header className='container__header'>
             <section className='container__header__content'>
-              <h1 className='container__header__content__logo'><Link to="/" title='TM UI/ UX Designer & Front End Development'>TM <span>UI/ UX Designer &<br /> Front End Development</span></Link></h1>
+              <h1 className='container__header__content__logo'><Link to="/" title='TM UI/ UX Designer & Front End Development'>TM <span>UI/ UX Fullstack Designer &<br /> Front End Development</span></Link></h1>
 
               <nav className='container__header__content__menu'>
                     <AnchorLink href='#Home'>Home</AnchorLink>
@@ -250,7 +250,7 @@ function Home() {
 
 
         <section className='container__prefooter'>
-              <h4 className='container__prefooter__logo'><Link to="/" title='TM UI/ UX Designer & Front End Development'>TM <span>UI/ UX Designer &<br /> Front End Development</span></Link></h4>
+              <h4 className='container__prefooter__logo'><Link to="/" title='TM UI/ UX Designer & Front End Development'>TM <span>UI/ UX Fullstack Designer &<br /> Front End Development</span></Link></h4>
         </section>
 
         <footer className='container__footer'>
