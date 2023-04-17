@@ -175,6 +175,7 @@ function Home() {
               <div div className='container__tags__item'><i>UX Writing</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
               <div div className='container__tags__item'><i>Adobe XD</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
               <div div className='container__tags__item'><i>Figma</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+              <div div className='container__tags__item'><i>Axure</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
               <div div className='container__tags__item'><i>PhotoShop</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
               <div div className='container__tags__item'><i>Ilustrator</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
             </section>
