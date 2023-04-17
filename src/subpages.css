@@ -90,6 +90,19 @@
     font-size: 12px;
 }
 
+.container__tags.container__tags--home{
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container__tags.container__tags--home .container__tags__item{
+    width: auto;
+}
+
+.container__tags.container__tags--home .container__tags__item + *{
+    margin-left: 0;
+}
+
 .container__seeproject{
     width: 100%;
     display: flex;
@@ -172,6 +185,7 @@
 
 .container__slider .slick-prev:hover, 
 .container__slider .slick-next:hover{background-color: #999;}
+
 
 @media (max-width: 768px){
     .container__subpage{

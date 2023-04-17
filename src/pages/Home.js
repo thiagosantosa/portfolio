@@ -56,6 +56,7 @@ function Home() {
                     <AnchorLink href='#About'>About</AnchorLink>
                     <AnchorLink href='#Services'>Services</AnchorLink>
                     <AnchorLink href='#Work'>Work</AnchorLink>
+                    <AnchorLink href='#Skills'>Skills</AnchorLink>
                     <AnchorLink href='#Education'>Academic education</AnchorLink>
                     <AnchorLink href='#Contact'>Contact</AnchorLink>
               </nav>
@@ -154,6 +155,49 @@ function Home() {
             <li><h3>UX / UI Design</h3> Use of the main concepts of UX and UI to add value to the project.</li>
             <li><h3>Strategy</h3> Strategic plans and project management from inception to final delivery.</li>
           </ul>
+        </section>
+
+        <section id='Skills'></section>
+        <section className='container__services'>
+          <h2 className='container__services__title'>Skills</h2>
+
+            <section className='container__seeproject'>
+              <div className='container__seeproject_legend'><span></span><strong style={{fontSize: "16px"}}>UX | UI Design </strong>&nbsp;- My knowledge in technology from a 0 to 10 </div>
+            </section>
+
+            <section className='container__tags container__tags--home'>   
+              <div div className='container__tags__item'><i>User Experience Design</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+              <div div className='container__tags__item'><i>Usability</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
+              <div div className='container__tags__item'><i>Information Architecture</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+              <div div className='container__tags__item'><i>Mobile Design</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+              <div div className='container__tags__item'><i>Design Sprint</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
+              <div div className='container__tags__item'><i>UX Writing</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+              <div div className='container__tags__item'><i>Adobe XD</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+              <div div className='container__tags__item'><i>Figma</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+              <div div className='container__tags__item'><i>PhotoShop</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
+              <div div className='container__tags__item'><i>Ilustrator</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
+            </section>
+
+            <section className='container__seeproject'>
+              <div className='container__seeproject_legend'><span></span><strong style={{fontSize: "16px"}}>Front End</strong> </div>
+            </section>
+
+            <section className='container__tags container__tags--home'>   
+            <div className='container__tags__item'><i>Agile Scrum</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+            <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+            <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+            <div className='container__tags__item'><i>Angular</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
+            <div className='container__tags__item'><i>React</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+            <div className='container__tags__item'><i>React Native</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
+            <div className='container__tags__item'><i>Bootstrap</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+            <div className='container__tags__item'><i>Angular Material</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+            <div className='container__tags__item'><i>GitHub</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
+            <div className='container__tags__item'><i>Vercel</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
+            <div className='container__tags__item'><i>Azure</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+            <div className='container__tags__item'><i>Jquery</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+            <div className='container__tags__item'><i>Micro frontend</i> <span>6</span> <div data-label="punctuation" style={{width: '60%'}}></div></div>
+            </section>
+
         </section>
 
         <section id='Education'></section>
