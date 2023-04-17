@@ -162,7 +162,7 @@ function Home() {
           <h2 className='container__services__title'>Skills</h2>
 
             <section className='container__seeproject'>
-              <div className='container__seeproject_legend'><span></span><strong style={{fontSize: "16px"}}>UX | UI Design </strong>&nbsp;- My knowledge in technology from a 0 to 10 </div>
+              <div className='container__seeproject_legend container__seeproject_legend--home'><span>8,5</span><strong style={{fontSize: "16px"}}>UX | UI Design </strong>&nbsp;- My knowledge in technology from a 0 to 10 </div>
             </section>
 
             <section className='container__tags container__tags--home'>   
@@ -181,7 +181,7 @@ function Home() {
             </section>
 
             <section className='container__seeproject'>
-              <div className='container__seeproject_legend'><span></span><strong style={{fontSize: "16px"}}>Front End</strong> </div>
+              <div className='container__seeproject_legend container__seeproject_legend--home'><span>9,2</span><strong style={{fontSize: "16px"}}>Front End</strong> </div>
             </section>
 
             <section className='container__tags container__tags--home'>   
