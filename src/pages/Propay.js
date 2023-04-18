@@ -34,8 +34,8 @@ The project was totally focused on the use of UX methodologies, personas, usabil
 
     <section className='container__tags'>
       <div className='container__tags__item'><i>Mobile</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>Adobe XD</i> <span>100</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
-      <div className='container__tags__item'><i>UX | UI </i> <span>100</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>Adobe XD</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
+      <div className='container__tags__item'><i>UX | UI </i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>Scrum </i> <span>20</span> <div data-label="punctuation" style={{width: '20%'}}></div></div>
       <div className='container__tags__item'><i>HTML 5</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
       <div className='container__tags__item'><i>CSS/SCSS</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
