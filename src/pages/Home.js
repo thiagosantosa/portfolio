@@ -172,7 +172,6 @@ function Home() {
               <div div className='container__tags__item'><i>Mobile Design</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
               <div div className='container__tags__item'><i>Design System</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
               <div div className='container__tags__item'><i>Design Sprint</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
-              <div div className='container__tags__item'><i>UX Writing</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
               <div div className='container__tags__item'><i>Adobe XD</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
               <div div className='container__tags__item'><i>Figma</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
               <div div className='container__tags__item'><i>Axure</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
@@ -214,7 +213,6 @@ function Home() {
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Agile and Collaborative Leadership in Market 4.0</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Design UX and UI</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Information Architecture in UX</li>
-            <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> UX Writing - User Flows and Scenarios for Digital Products</li>
             <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Information Technology Management <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Internet Systems <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2022-2022</h3> <img src={LogoPanamericana} className='container__education__item_logo' /> Design Leaders Mindset, Game Design and Digital Media</li>
