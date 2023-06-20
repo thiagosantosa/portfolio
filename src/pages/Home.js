@@ -209,9 +209,7 @@ function Home() {
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Design for a Better World with Don Norman </li>
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Mobile User Experience (UX) Design </li>
             <li><h3>2023-2023</h3> <img src={LogoEspm} className='container__education__item_logo' /> Project Management with PMI and PMBOK</li>
-            <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Agile and Collaborative Leadership in Market 4.0</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Design UX and UI</li>
-            <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Information Architecture in UX</li>
             <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Information Technology Management <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Internet Systems <span className='container__education__item_now'>Studying</span></li>
             <li><h3>2022-2022</h3> <img src={LogoPanamericana} className='container__education__item_logo' /> Design Leaders Mindset, Game Design and Digital Media</li>
