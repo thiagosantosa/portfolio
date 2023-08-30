@@ -191,6 +191,8 @@ function Home() {
             <div className='container__tags__item'><i>Bootstrap</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
             <div className='container__tags__item'><i>Angular Material</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
             <div className='container__tags__item'><i>GitHub</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
+            <div className='container__tags__item'><i>Jira</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
+            <div className='container__tags__item'><i>Bitbucket</i> <span>9</span> <div data-label="punctuation" style={{width: '90%'}}></div></div>
             <div className='container__tags__item'><i>Vercel</i> <span>7</span> <div data-label="punctuation" style={{width: '70%'}}></div></div>
             <div className='container__tags__item'><i>Azure</i> <span>8</span> <div data-label="punctuation" style={{width: '80%'}}></div></div>
             <div className='container__tags__item'><i>Jquery</i> <span>10</span> <div data-label="punctuation" style={{width: '100%'}}></div></div>
