@@ -68,7 +68,7 @@ function Home() {
             <h2>
               <span>Olá pessoal!</span>
               Meu portfólio<br />
-              profissional sejam bem vindos.
+              profissional.
             </h2>
 
             <nav className='container__welcome__social'>
@@ -93,7 +93,7 @@ function Home() {
 
         <section id='Work'></section>
         <section className='container__works'>
-            <h2 className='container__works__title'>Projetos em Destaque</h2>
+            <h2 className='container__works__title'>Meus Trabalhos</h2>
 
             <section className='container__works__item'>
               <Link to="/loreal" title='L Oréal Paris Brasil'>
@@ -249,7 +249,7 @@ function Home() {
         <footer className='container__footer'>
           <section className='container__footer_item'>
           Você não pode esgotar sua criatividade.<br />
-          Quanto mais você usa, mais<br />
+          Quanto mais você usa, mais
           você tem.
 
             <nav className='container__footer_item__social'>
