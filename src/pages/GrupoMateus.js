@@ -29,9 +29,9 @@ function GrupoMateus() {
     </header>
 
     <p className='container__description'>
-    The challenge of the project is the conception of all the internal systems of the company. Along with the project team, my main task is to
-act as UX / UI Designer, bringing the best solution for the project. In addition, I actively participate in the architecture squad acting as a 
-Front End Developer in the componentization of a new design system in Angular.
+    O desafio do projeto é a concepção de todos os sistemas internos da empresa. Juntamente com a equipe do projeto, minha principal tarefa é
+atuar como UX/UI Designer, trazendo a melhor solução para o projeto. Além disso, participo ativamente do pelotão de arquitetura atuando como
+Desenvolvedor Front End na componenteização de um novo sistema de design em Angular.
     </p>
 
     <section className='container__tags'>      
@@ -50,8 +50,8 @@ Front End Developer in the componentization of a new design system in Angular.
     </section>
 
     <section className='container__seeproject'>
-      <div className='container__seeproject_legend'><span></span>Level of interaction of the technology applied in the project from 0 to 10, the grade refers to how much I needed to apply the technology in question in the project.</div>
-      <a href="https://www.grupomateus.com.br/" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
+      <div className='container__seeproject_legend'><span></span>Nível de interação da tecnologia aplicada no projeto de 0 a 10, a nota refere-se ao quanto precisei para aplicar a tecnologia em questão no projeto.</div>
+      <a href="https://www.grupomateus.com.br/" target='_blank' rel="noreferrer">Ver projeto <img src={ImagemLink} /></a>
     </section>
 
 

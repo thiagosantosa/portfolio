@@ -53,12 +53,12 @@ function Home() {
 
               <nav className='container__header__content__menu'>
                     <AnchorLink href='#Home'>Home</AnchorLink>
-                    <AnchorLink href='#About'>About</AnchorLink>
-                    <AnchorLink href='#Services'>Services</AnchorLink>
-                    <AnchorLink href='#Work'>Work</AnchorLink>
-                    <AnchorLink href='#Skills'>Skills</AnchorLink>
-                    <AnchorLink href='#Education'>Academic education</AnchorLink>
-                    <AnchorLink href='#Contact'>Contact</AnchorLink>
+                    <AnchorLink href='#About'>Quem sou eu</AnchorLink>
+                    <AnchorLink href='#Services'>O que eu faço</AnchorLink>
+                    <AnchorLink href='#Work'>Meus Trabalhos</AnchorLink>
+                    <AnchorLink href='#Skills'>Minhas habilidades</AnchorLink>
+                    <AnchorLink href='#Education'>Formação educacional</AnchorLink>
+                    <AnchorLink href='#Contact'>Vamos bater um papo</AnchorLink>
               </nav>
             </section>
         </header>
@@ -66,10 +66,9 @@ function Home() {
         <section id='Home'></section>
         <section className='container__welcome'>
             <h2>
-              <span>Hello people!</span>
-              My creative <br />
-              digital design <br />
-              and Front End
+              <span>Olá pessoal!</span>
+              Meu portfólio<br />
+              profissional sejam bem vindos.
             </h2>
 
             <nav className='container__welcome__social'>
@@ -82,12 +81,11 @@ function Home() {
         <section id='About'></section>
         <section className='container__about'>
           <div>
-             <h2 className='container__about__title'>About me</h2>
+             <h2 className='container__about__title'>Quem sou eu</h2>
              <p className='container__about__description'>
-             With 18 years of experience in the internet area, I have worked in different sectors such as creation, 
-             projects and development. I developed projects for product, marketing and IT sectors for large clients 
-             such as Royal Canin, Porto Seguro, Ticket, Loreal, Cacau Show, Grupo Mateus, Hyundai etc... through the 
-             companies that I exercised my functions and tasks.
+             Com 19 anos de experiência na área de internet, já trabalhei em diversos setores como criação,
+             projetos e desenvolvimento. Desenvolvi projetos para os setores de produto, marketing e TI para grandes clientes
+             como Royal Canin, Porto Seguro, Ticket, Loreal, Cacau Show, Grupo Mateus, Hyundai etc...
              </p>
           </div>
           <img src={ImageThiago} alt='Thiago Miranda | UX Designer and Front End' />
@@ -95,7 +93,7 @@ function Home() {
 
         <section id='Work'></section>
         <section className='container__works'>
-            <h2 className='container__works__title'>Featured Work</h2>
+            <h2 className='container__works__title'>Projetos em Destaque</h2>
 
             <section className='container__works__item'>
               <Link to="/loreal" title='L Oréal Paris Brasil'>
@@ -148,21 +146,21 @@ function Home() {
 
         <section id='Services'></section>
         <section className='container__services'>
-          <h2 className='container__services__title'>My Services</h2>
+          <h2 className='container__services__title'>O que eu faço</h2>
 
           <ul className='container__services__item'>
-            <li><h3>Front End</h3> Construction of the prototype from its conception.</li>
-            <li><h3>UX / UI Design</h3> Use of the main concepts of UX and UI to add value to the project.</li>
-            <li><h3>Strategy</h3> Strategic plans and project management from inception to final delivery.</li>
+            <li><h3>Front End</h3> Construção do protótipo desde a sua concepção.</li>
+            <li><h3>UX / UI Design</h3> Utilização dos principais conceitos de UX e UI para agregar valor ao projeto.</li>
+            <li><h3>Strategy</h3> Planos estratégicos e gerenciamento de projetos desde o início até a entrega final.</li>
           </ul>
         </section>
 
         <section id='Skills'></section>
         <section className='container__services'>
-          <h2 className='container__services__title'>Skills</h2>
+          <h2 className='container__services__title'>Minhas habilidades</h2>
 
             <section className='container__seeproject'>
-              <div className='container__seeproject_legend container__seeproject_legend--home'><span>8,5</span><strong style={{fontSize: "16px"}}>UX | UI Design </strong>&nbsp;- My knowledge in technology from a 0 to 10 </div>
+              <div className='container__seeproject_legend container__seeproject_legend--home'><span>8,5</span><strong style={{fontSize: "16px"}}>UX | UI Design </strong>&nbsp;- Meu conhecimento em tecnologia de 0 a 10 </div>
             </section>
 
             <section className='container__tags container__tags--home'>   
@@ -203,23 +201,23 @@ function Home() {
 
         <section id='Education'></section>
         <section className='container__education'>
-          <h2 className='container__education__title'>Academic education</h2>
+          <h2 className='container__education__title'>Formação educacional</h2>
 
           <ul className='container__education__item'>
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Design for a Better World with Don Norman </li>
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Mobile User Experience (UX) Design </li>
-            <li><h3>2023-2023</h3> <img src={LogoEspm} className='container__education__item_logo' /> Project Management with PMI and PMBOK</li>
+            <li><h3>2023-2023</h3> <img src={LogoEspm} className='container__education__item_logo' /> Gerenciamento de Projetos com PMI e PMBOK</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Design UX and UI</li>
-            <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Information Technology Management <span className='container__education__item_now'>Studying</span></li>
-            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Higher Technology Course (CST), Internet Systems <span className='container__education__item_now'>Studying</span></li>
+            <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Gestão de Tecnologia da Informação <span className='container__education__item_now'>Cursando</span></li>
+            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Sistemas para Internet <span className='container__education__item_now'>Cursando</span></li>
             <li><h3>2022-2022</h3> <img src={LogoPanamericana} className='container__education__item_logo' /> Design Leaders Mindset, Game Design and Digital Media</li>
-            <li><h3>2004-2006</h3> <img src={LogoOswaldoCruz} className='container__education__item_logo' /> Higher Technology Course (CST), Virtual Systems - Webdesign </li> 
+            <li><h3>2004-2006</h3> <img src={LogoOswaldoCruz} className='container__education__item_logo' /> Sistemas Virtuais - Webdesign </li> 
           </ul>
         </section>
 
 
         <section className='container__companies'>
-            <h4 className='container__companies_title'>Projects from companies I participated in.</h4>
+            <h4 className='container__companies_title'>Projetos de empresas das quais participei.</h4>
 
             <ul className='container__companies_item'>
               <li><img src={CHyundai} /></li>
@@ -239,8 +237,8 @@ function Home() {
 
         <section id='Contact'></section>
         <section className='container__talk'>
-          <h2 className='container__talk_title'><span>Want to start a project?</span>Let’s Talk</h2>
-          <button className='container__talk_bto' onClick={() => { window.open("https://wa.me/+5511991079785");}}>Contact us</button>
+          <h2 className='container__talk_title'><span>Quer iniciar um projeto ?</span>Vamos Conversar!</h2>
+          <button className='container__talk_bto' onClick={() => { window.open("https://wa.me/+5511991079785");}}>Iniciar conversa</button>
         </section>
 
 
@@ -250,9 +248,9 @@ function Home() {
 
         <footer className='container__footer'>
           <section className='container__footer_item'>
-          You cannot exhaust your creativity.<br />
-          The more you use, the more <br />
-          you have.
+          Você não pode esgotar sua criatividade.<br />
+          Quanto mais você usa, mais<br />
+          você tem.
 
             <nav className='container__footer_item__social'>
                   <a href="https://www.instagram.com/thiagophelps" rel="noreferrer" title='Instagram'><img src={LogoInstagram} alt='Instagram' /></a>
@@ -262,7 +260,7 @@ function Home() {
           </section>
 
           <section className='container__footer_item'>
-          address
+          Contato
           <a href='mailto:thiagosantosa@gmail.com' target='_blank' rel="noreferrer">thiagosantosa@gmail.com</a>
           +55 11 9 9107-9785
           </section>  

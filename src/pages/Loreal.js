@@ -30,9 +30,9 @@ function Loreal() {
     </header>
 
     <p className='container__description'>
-    Active in the development of the dermocosmeticos Dermaclub discount club project. The project was focused on giving discounts
-    exclusive for registered CPFs, through partner pharmacies. My role with the project team was to act
-    in the construction of the prototyping delivered in XD using the technologies below:
+    Atuante no desenvolvimento do projeto clube de descontos dermocosméticos Dermaclub. O projeto teve como foco dar descontos
+    exclusivo para CPFs cadastrados, através de farmácias parceiras. Meu papel com a equipe do projeto era agir
+    na construção da prototipagem entregue em XD utilizando as tecnologias abaixo:
     </p>
 
     <section className='container__tags'>      
@@ -51,8 +51,8 @@ function Loreal() {
     </section>
 
     <section className='container__seeproject'>
-      <div className='container__seeproject_legend'><span></span>Level of interaction of the technology applied in the project from 0 to 10, the grade refers to how much I needed to apply the technology in question in the project.</div>
-      <a href="https://sso.dermaclub.com.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Ddermafront%26redirect_uri%3Dhttps%253A%252F%252Fclube.dermaclub.com.br%252Fsignin-callback.html%26response_type%3Dcode%26scope%3Dopenid%2520profile%26state%3D85735919a1df4d9cb92bee06c1328fc6%26code_challenge%3D1_QL03wyn79lSS5LcRe4-teAbCGJJGVdnM9pZN22vIk%26code_challenge_method%3DS256%26response_mode%3Dquery" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
+      <div className='container__seeproject_legend'><span></span>Nível de interação da tecnologia aplicada no projeto de 0 a 10, a nota refere-se ao quanto precisei para aplicar a tecnologia em questão no projeto.</div>
+      <a href="https://sso.dermaclub.com.br/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Ddermafront%26redirect_uri%3Dhttps%253A%252F%252Fclube.dermaclub.com.br%252Fsignin-callback.html%26response_type%3Dcode%26scope%3Dopenid%2520profile%26state%3D85735919a1df4d9cb92bee06c1328fc6%26code_challenge%3D1_QL03wyn79lSS5LcRe4-teAbCGJJGVdnM9pZN22vIk%26code_challenge_method%3DS256%26response_mode%3Dquery" target='_blank' rel="noreferrer">Ver projeto <img src={ImagemLink} /></a>
     </section>
 
 

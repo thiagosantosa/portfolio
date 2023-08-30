@@ -28,8 +28,8 @@ function CartaoMais() {
     </header>
 
     <p className='container__description'>
-    Reformulation of the Credsystem Cards website, working in partnership with the third-party agency Iterative. The project was based on
-structuring and partial part of UX in the project.
+    Reformulação do site Credsystem Cards, em parceria com a agência terceirizada Iterative. O projeto foi baseado
+estruturação e parte parcial de UX no projeto.
     </p>
 
     <section className='container__tags'>
@@ -46,8 +46,8 @@ structuring and partial part of UX in the project.
     </section>
 
     <section className='container__seeproject'>
-      <div className='container__seeproject_legend'><span></span>Level of interaction of the technology applied in the project from 0 to 10, the grade refers to how much I needed to apply the technology in question in the project.</div>
-      <a href="https://www.cartaomais.com.br/" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
+      <div className='container__seeproject_legend'><span></span>Nível de interação da tecnologia aplicada no projeto de 0 a 10, a nota refere-se ao quanto precisei para aplicar a tecnologia em questão no projeto.</div>
+      <a href="https://www.cartaomais.com.br/" target='_blank' rel="noreferrer">Ver projeto <img src={ImagemLink} /></a>
     </section>
 
 

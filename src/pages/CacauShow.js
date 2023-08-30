@@ -28,9 +28,9 @@ function CacauShow() {
     </header>
 
     <p className='container__description'>
-    Project participation in the relationship and loyalty program sales revenue. The performance in the project was in the focus of the
-development of structuring with the project team using agile methodology. In this project we had to use a lot resources in React due to 
-the complexity of the project. My focal role was in structuring screens in React through the Prototyping by the creative team.
+    Participação do projeto na receita de vendas do programa de relacionamento e fidelidade. A atuação no projeto esteve no foco do
+desenvolvimento de estruturação junto à equipe do projeto utilizando metodologia ágil. Neste projeto tivemos que utilizar muitos recursos em React devido a
+a complexidade do projeto. Meu papel focal foi na estruturação de telas em React através da Prototipagem pela equipe criativa.
     </p>
 
     <section className='container__tags'>
@@ -44,8 +44,8 @@ the complexity of the project. My focal role was in structuring screens in React
     </section>
 
     <section className='container__seeproject'>
-      <div className='container__seeproject_legend'><span></span>Level of interaction of the technology applied in the project from 0 to 10, the grade refers to how much I needed to apply the technology in question in the project.</div>
-      <a href="https://revendedor.cacaushow.com.br/revendedor" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
+      <div className='container__seeproject_legend'><span></span>Nível de interação da tecnologia aplicada no projeto de 0 a 10, a nota refere-se ao quanto precisei para aplicar a tecnologia em questão no projeto.</div>
+      <a href="https://revendedor.cacaushow.com.br/revendedor" target='_blank' rel="noreferrer">ver projeto <img src={ImagemLink} /></a>
     </section>
 
 

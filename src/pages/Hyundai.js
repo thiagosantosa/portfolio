@@ -28,9 +28,9 @@ function Hyundai() {
     </header>
 
     <p className='container__description'>
-    Project to reformulate the entire Hyundai.com.br website, an in-depth study was carried out with the creative team for reformulation
-site total, all UX methodology was used | UI in the project because the idea itself was to bring all the componentization of the
-elements making the site 100% customized with Adobe AEM technology.
+    Projeto de reformulação de todo o site Hyundai.com.br, foi realizado um estudo aprofundado junto à equipe de criação para reformulação
+total do site, toda metodologia UX foi utilizada | UI no projeto porque a ideia em si era trazer toda a componentização do
+elementos que tornam o site 100% customizado com tecnologia Adobe AEM.
     </p>
 
     <section className='container__tags'>
@@ -46,8 +46,8 @@ elements making the site 100% customized with Adobe AEM technology.
     </section>
 
     <section className='container__seeproject'>
-      <div className='container__seeproject_legend'><span></span>Level of interaction of the technology applied in the project from 0 to 10, the grade refers to how much I needed to apply the technology in question in the project.</div>
-      <a href="https://www.hyundai.com.br/" target='_blank' rel="noreferrer">See project <img src={ImagemLink} /></a>
+      <div className='container__seeproject_legend'><span></span>Nível de interação da tecnologia aplicada no projeto de 0 a 10, a nota refere-se ao quanto precisei para aplicar a tecnologia em questão no projeto.</div>
+      <a href="https://www.hyundai.com.br/" target='_blank' rel="noreferrer">Ver projeto <img src={ImagemLink} /></a>
     </section>
 
 
