@@ -206,12 +206,12 @@ function Home() {
           <h2 className='container__education__title'>Formação educacional</h2>
 
           <ul className='container__education__item'>
+            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Gestão de Tecnologia da Informação {/*<span className='container__education__item_now'>Cursando</span>*/}</li>
+            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Sistemas para Internet</li>
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Design for a Better World with Don Norman </li>
             <li><h3>2023-2023</h3> <img src={LogoInteractiveDesign} className='container__education__item_logo' /> Mobile User Experience (UX) Design </li>
             <li><h3>2023-2023</h3> <img src={LogoEspm} className='container__education__item_logo' /> Gerenciamento de Projetos com PMI e PMBOK</li>
             <li><h3>&nbsp;</h3> <img src={LogoEspm} className='container__education__item_logo' /> Design UX and UI</li>
-            <li><h3>2022-2025</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Gestão de Tecnologia da Informação {/*<span className='container__education__item_now'>Cursando</span>*/}</li>
-            <li><h3>2022-2024</h3> <img src={LogoAnhembi} className='container__education__item_logo' /> Sistemas para Internet</li>
             <li><h3>2022-2022</h3> <img src={LogoPanamericana} className='container__education__item_logo' /> Design Leaders Mindset, Game Design and Digital Media</li>
             <li><h3>2004-2006</h3> <img src={LogoOswaldoCruz} className='container__education__item_logo' /> Sistemas Virtuais - Webdesign </li> 
           </ul>
